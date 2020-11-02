@@ -20,7 +20,7 @@ public class Math {
         return numbers;
     }
 
-    private boolean isPrime(int i) {
+    public boolean isPrime(int i) {
         if (i < 2)
             return false;
 
@@ -28,7 +28,6 @@ public class Math {
             if(i % j == 0)
                 return false;
         }
-
         return  true;
     }
 }
